@@ -1,0 +1,48 @@
+$main-website: #0099ff;
+$main-font: #fff;
+
+body {
+    background-color: $main-website;
+    color: $main-font;
+}
+
+main {
+    margin: 0 auto;
+    width: 1200px;
+    height: 60vh;
+    text-align: center;
+    border-radius: 50px;
+    header {
+        margin-top: 50px;
+    }
+    .box {
+        padding: 50px;
+        h3 {
+            margin-top: 50px;
+        }
+    }
+    button {
+        width: 300px;
+        height: 40px;
+        background-color: $main-website;
+        color: $main-font;
+        border: 1px solid $main-font;
+        border-radius: 5px;
+        display: block;
+        margin: 20px auto;
+        cursor: pointer;
+        i {
+            font-size: 30px;
+            color: $main-font;
+            margin-right: 5px;
+        }
+        a {
+            text-decoration: none;
+            color: $main-font;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
